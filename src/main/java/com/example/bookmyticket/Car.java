@@ -9,7 +9,7 @@ public class Car {
     @GetMapping("/Car")
     public String getData(){
 
-        return "Welcome to BookMyPlan, Enjoy Car booking at 10% off";
+        return "Welcome to BookMyPlan, Enjoy Car booking at 100% off";
     }
 
 }
