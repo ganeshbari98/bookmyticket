@@ -3,11 +3,11 @@ pipeline {
     agent any
 
     options {
-        buildDiscarder(logRotator(numToKeepStr: '3', artifactNumToKeepStr: '3'))
+        buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '6'))
     }
 
     tools {
-        maven 'mvn_3.9.12'
+        maven 'mvn_3.9.15'
     }
 
     stages {
